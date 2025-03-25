@@ -4,7 +4,7 @@ import React from 'react'
 const Header = () => {
   return (
     <View>
-      <Text>CONMEBOL Libertadores</Text>
+      <Text className="text-2xl text-center py-4 bg-slate-500">CONMEBOL Libertadores</Text>
     </View>
   )
 }
