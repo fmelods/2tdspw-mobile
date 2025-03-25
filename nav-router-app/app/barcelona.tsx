@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import Header from '../components/Header'
+import { Link } from 'expo-router'
 
 const Barcelona = () => {
   return (
     <View>
-      <Header />
       <Text>Barcelona</Text>
+      <Link href="/">Voltar</Link>
     </View>
   )
 }
